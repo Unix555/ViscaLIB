@@ -121,7 +121,6 @@ void ViscaLib::PAN_TILT_RELATIVE_POSITION(byte speed, int panPosition, int tiltP
   byte list[13] = {0x01, 0x06, 0x03, speed, speed, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00};
 
   int16_t signedpanPosition = constrain(panPosition, -8160, 8160);
-
   uint8_t signedpanPosition_byte1 = (signedpanPosition >> 8) & 0xFF;
   uint8_t signedpanPosition_byte2 = signedpanPosition & 0xFF;
 
@@ -131,7 +130,6 @@ void ViscaLib::PAN_TILT_RELATIVE_POSITION(byte speed, int panPosition, int tiltP
   list[8] = signedpanPosition_byte2 & 0x0F;
 
   int16_t signedtiltPosition = constrain(tiltPosition, -2040, 2040);
-
   uint8_t signedtiltPosition_byte1 = (signedtiltPosition >> 8) & 0xFF;
   uint8_t signedtiltPosition_byte2 = signedtiltPosition & 0xFF;
 
