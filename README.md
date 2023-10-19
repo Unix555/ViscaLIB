@@ -54,18 +54,18 @@ void loop() {
 | `PAN_TILT_DOWN(s)` | `s = speed value 1 to 18` | 
 | `PAN_TILT_LEFT(s)` | `s = speed value 1 to 18` | 
 | `PAN_TILT_RIGHT(s)` | `s = speed value 1 to 18` | 
-| `PAN_TILT_UP_LEFT(s1, s2)` | `s1 = pan speed <br/> s2 = tilt speed 1 to 18` |
-| `PAN_TILT_UP_RIGHT(s1, s2)` | `s1 = pan speed <br/> s2 = tilt speed 1 to 18` |
-| `PAN_TILT_DOWN_LEFT(s1, s2)` | `s1 = pan speed <br/> s2 = tilt speed 1 to 18` |
-| `PAN_TILT_DOWN_RIGHT(s1, s2)` | `s1 = pan speed <br/> s2 = tilt speed 1 to 18` |
+| `PAN_TILT_UP_LEFT(s1, s2)` | `s1 = pan speed ; s2 = tilt speed 1 to 18` |
+| `PAN_TILT_UP_RIGHT(s1, s2)` | `s1 = pan speed ; s2 = tilt speed 1 to 18` |
+| `PAN_TILT_DOWN_LEFT(s1, s2)` | `s1 = pan speed ; s2 = tilt speed 1 to 18` |
+| `PAN_TILT_DOWN_RIGHT(s1, s2)` | `s1 = pan speed ; s2 = tilt speed 1 to 18` |
 | `PAN_TILT_STOP()` | `none` |
 | `PAN_TILT_HOME()` | `none` |
 | `PAN_TILT_RESET()` | `none` |
 | `IF_Clear()` | `none` |
 | `PAN_TILT_RAMP_CURVE(x)` | `x: 1 (Sharpness), 2 (Standard), 3 (Gentle)` |
 | `PAN_TILT_SLOW_MODE(x)` | `x: True / False` |
-| `PAN_TILT_ABSOLUTE_POSITION(s, x, y)` | `s = speed value 1 to 18 <br/> x = Pan value -8160 to 8160 <br/> y = Tilt value -2040 to 2040` |
-| `PAN_TILT_RELATIVE_POSITION(s, x, y)` | `s = speed value 1 to 18 <br/> x = Pan value -8160 to 8160 <br/> y = Tilt value -2040 to 2040` |
+| `PAN_TILT_ABSOLUTE_POSITION(s, x, y)` | `s = speed value 1 to 18 ; x = Pan value -8160 to 8160 ; y = Tilt value -2040 to 2040` |
+| `PAN_TILT_RELATIVE_POSITION(s, x, y)` | `s = speed value 1 to 18 ; x = Pan value -8160 to 8160 ; y = Tilt value -2040 to 2040` |
 
 ## Authors
 
